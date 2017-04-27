@@ -1,0 +1,150 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+li {
+  list-style: none; }
+
+a {
+  text-decoration: none; }
+
+#headerTop {
+  background-color: #e5e5e5;
+  height: 30px;
+  font-size: 14px; }
+
+#header:after {
+  conter: ",";
+  clear: both;
+  display: block;
+  height: 0;
+  overflow: hidden;
+  visibility: hidden; }
+
+#headerTop .headerTopLeft {
+  display: block;
+  height: 30px;
+  width: 50px;
+  float: left;
+  margin-left: 50px;
+  line-height: 30px; }
+
+#headerTop .headerTopRight {
+  float: right;
+  height: 30px;
+  margin-right: 50px;
+  position: relative; }
+
+#headerTop .headerTopRight li {
+  float: left;
+  height: 30px;
+  width: 100px;
+  line-height: 30px;
+  text-align: center; }
+
+#headerTop .headerTopRight .shu1 {
+  position: absolute;
+  left: 292px;
+  top: 6px; }
+
+#headerTop .headerTopRight .shu2 {
+  position: absolute;
+  left: 693px;
+  top: 6px; }
+
+#headerTop .headerTopRight .shuji {
+  position: absolute;
+  left: 710px;
+  top: 8px; }
+
+#headerTop .headerTopRight .weixin {
+  position: absolute;
+  left: 800px;
+  top: 8px; }
+
+#headerTop a {
+  color: black; }
+
+#headerTop a:hover {
+  color: red;
+  border-bottom: 1px solid red; }
+
+#headerTop .headerTopRight .sjewm {
+  width: 80px;
+  height: 80px;
+  position: absolute;
+  left: 707px;
+  top: 30px;
+  display: none; }
+
+#headerTop .headerTopRight .wxewm {
+  width: 80px;
+  height: 80px;
+  position: absolute;
+  left: 800px;
+  top: 30px;
+  display: none; }
+
+#middle {
+  position: relative;
+  height: 130px;
+  overflow: hidden; }
+
+#middle .logo {
+  float: left;
+  margin: 40px 40px 50px 50px; }
+
+#middle .maa {
+  float: left;
+  margin: 40px 120px 50px 120px; }
+
+#middle .maa .search {
+  width: 355px;
+  height: 40px; }
+
+#middle .maa .btn {
+  width: 100px;
+  height: 40px;
+  background-color: #dc0f50;
+  margin-left: -10px;
+  color: white; }
+
+#middle .ss {
+  float: left;
+  margin-left: 70px;
+  margin-top: 53px;
+  font-size: 16px;
+  color: #000000;
+  border: 1px solid #E5E5E5;
+  width: 100px;
+  height: 30px; }
+
+#middle .ss .sp {
+  position: absolute;
+  top: 47px;
+  display: block;
+  margin-right: 10px; }
+
+#middle .spaned {
+  width: 270px;
+  height: 40px;
+  border: 1px solid #E5E5E5;
+  position: absolute;
+  top: 90px;
+  left: 923px;
+  display: none;
+  line-height: 40px; }
+
+#headerDown {
+  height: 100px; }
+
+#headerDown .container {
+  float: left;
+  overflow: hidden; }
+
+#headerDown .ul3 li {
+  float: left;
+  display: block;
+  overflow: hidden; }
+
+/*# sourceMappingURL=index.css.map */

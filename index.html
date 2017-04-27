@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>载物网首页</title>
+	<link rel="stylesheet" href="css/index.css"/>
+		
+	</head>
+	<body>
+		<div id="header">
+			<div id="headerTop">
+				<span class="headerTopLeft">收藏</span>
+				<ul class="headerTopRight">
+					<li><a href="#">首页</a></li>
+					<li><a href="#">请登录</a></li>
+					<li class="li3"><a href="#">免费注册</a></li>
+					<img class="shu1" src="img/shu.jpg"/>
+					<li>购物车<a href="#">0</a>件</li>
+					<li><a href="#">我的家有</a></li>
+					<li>购物劵<a href="#">0</a>张</li>
+					<li><a href="#">我的收藏</a></li>
+					<img class="shu2" src="img/shu.jpg"/>
+					<img class="shuji" src="img/shuji.jpg"/>
+					<li class="li8"><a href="#">手机版</a></li>
+					<img class="weixin" src="img/weixin.jpg"/>
+					<li class="li9"><a href="#">微信版</a></li>
+					<img class="sjewm" src="img/ewm1.jpg"/>
+					<img class="wxewm" src="img/ewm2.jpg"/>
+				</ul>
+			</div>
+			
+			<div id="middle">
+				<a href="#"><img class="logo" src="img/logo.jpg"/></a>
+				<div class="maa">
+					<input class="search" type="text" placeholder="男士上衣">
+					<input type="button" class="btn" value="搜索">
+				</div>
+				<a href="#" class="ss"><img class="sp" src="img/shopping.jpg"></p class="p3">我的购物车0</p></a>
+				<span class="spaned">购物车中还没有商品，赶紧去选购吧!</span>
+			</div>
+			
+			<div id="headerDown">
+				<div class="container">
+					<ul>
+						<li><a href="#"><span>全部商品分类</a></span>
+							<ul class="ul2">
+								<li><a href="#">海外购</a></li>
+								<li><a href="#">生活电器</a></li>
+								<li><a href="#">品质厨房</a></li>
+								<li><a href="#">家具用品</a></li>
+								<li><a href="#">美妆个护</a></li>
+								<li><a href="#">食品饮料</a></li>
+								<li><a href="#">户外健身</a></li>
+								<li><a href="#">服装服饰</a></li>
+								<li><a href="#">3C数码</a></li>
+								<li><a href="#">宠物用品</a></li>	
+							</ul>
+						</li>
+						
+						
+					</ul>
+				</div>
+				<ul class="ul3">
+					<li><a href="#">首页</a></li>
+					<li><a href="#">TV直播</a></li>
+					<li><a href="#">品牌惠</a></li>
+					<li><a href="#">载物有APP</a></li>
+					<li><a href="#">家有尊享</a></li>
+					<li><a href="#">家有优藏</a></li>
+				</ul>
+			</div>
+		</div>
+		<div id="banner">
+			
+		</div>
+		<div id="mian">
+			
+		</div>
+		<div id="footer">
+			
+		</div>
+	</body>
+</html>
+<script type="text/javascript" src="js/jquery-1.8.3.js"></script>
+<script type="text/javascript">
+$(function(){
+	$(".li8").on("mouseover",function(){
+		$(".sjewm").css("display","block")
+	});
+	$(".li8").on("mouseout",function(){
+		$(".sjewm").css("display","none")
+	});
+	
+		
+})
+
+$(function(){
+	$(".li9").on("mouseover",function(){
+		$(".wxewm").css("display","block")
+	});
+	$(".li9").on("mouseout",function(){
+		$(".wxewm").css("display","none")
+	});
+	
+		
+})
+$(function(){
+	$(".ss").on("mouseover",function(){
+		$(".spaned").css("display","block")
+	});
+	$(".ss").on("mouseout",function(){
+		$(".spaned").css("display","none")
+	});
+	
+		
+})
+
+
+
+</script>
